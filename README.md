@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/github/license/Monster-Train-2-Modding-Group/ItsBoneDog?color=lightgrey)](https://github.com/Monster-Train-2-Modding-Group/ItsBoneDog/blob/main/LICENSE)
 [![Donate](https://img.shields.io/badge/Ko--Fi-brandonandzeus-F16061?color=F16061&logo=ko-fi&style=flat&labelColor=?color=4E4E4E&logoColor=FFFFFF)](https://ko-fi.com/brandonandzeus)
 
-![icon](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/ItsBoneDog/main/card.png)
+
 
 Visual edit of the BoneDog card with all of the hints for the guess-that-card competition
+
+
+
+![icon](https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/ItsBoneDog/main/card.png)
