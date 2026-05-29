@@ -6,7 +6,7 @@ namespace = "Conductor"
 name = "ItsBoneDog"
 versionNumber = "1.0.0"
 description = "Visual edit of the BoneDog card with all of the hints for the guess-that-card competition"
-websiteUrl = "https://thunderstore.io"
+websiteUrl = "https://github.com/Monster-Train-2-Modding-Group/ItsBoneDog"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -23,7 +23,7 @@ source = "./plugin_build"
 target = ""
 
 [publish]
-repository = "https://github.com/Monster-Train-2-Modding-Group/ItsBoneDog"
+repository = "https://thunderstore.io"
 communities = [ "monster-train-2" ]
 
 
