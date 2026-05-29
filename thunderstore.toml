@@ -1,0 +1,29 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Conductor"
+name = "ItsBoneDog"
+versionNumber = "1.0.0"
+description = "Visual edit of the BoneDog card with all of the hints for the guess-that-card competition"
+websiteUrl = "https://thunderstore.io"
+containsNsfwContent = false
+
+[package.dependencies]
+BepInEx-BepInExPack = "5.4.2100"
+MT2-Trainworks_Reloaded = "0.7.15"
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./"
+
+[[build.copy]]
+source = "./plugin_build"
+target = ""
+
+[publish]
+repository = "https://thunderstore.io"
+communities = [ "monster-train-2" ]
+
+

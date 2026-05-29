@@ -1,0 +1,207 @@
+{
+  "$schema": "https://github.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/releases/latest/download/schema.json",
+  "cards": [
+    {
+      "id": "BoneDogTitan",
+      "override": "replace",
+      "card_art": "@CardArt_BoneDog"
+    }
+  ],
+  "game_objects": [
+    {
+      "id": "CardArt_BoneDog",
+      "type": "card_art",
+      "extensions": {
+        "card_art": {
+          "shader": "Shiny Shoe/CardEffects",
+          "sprite": "@PRT_Enchantrelle_Base_01",
+          "base_layer": {
+            "type": "texture",
+            "texture": "@PRT_Enchantrelle_Base_01"
+          },
+          "layers": [
+            {
+              "type": "texture",
+              "texture": "@SPL_SelflessSacrifice_Main",
+              "stretch": false,
+              "additive": false
+            },
+            {
+              "type": "distortion",
+              "texture": "@SPL_Sanctuary_Base_FX",
+              "motion_texture": "@FX_Clouds_02",
+              "mask_texture": "@MSK_Sanctuary_Base_02",
+              "stretch": false,
+              "additive": false
+            },
+            {
+              "type": "texture",
+              "texture": "@PRT_BoneDog_Layer1",
+              "stretch": false,
+              "additive": false
+            },
+            {
+              "type": "moving_texture",
+              "texture": "@FX_Clouds_01",
+              "mask_texture": "@MSK_BoneDog_Base_01",
+              "tint": {
+                "r": 0.7830188,
+                "g": 0.679509,
+                "b": 0.5724902,
+                "a": 1.0
+              },
+              "linear_speed": {
+                "x": 0.0,
+                "y": 1.0
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5
+              }
+            },
+            {
+              "type": "moving_texture",
+              "texture": "@FX_Clouds_01",
+              "mask_texture": "@MSK_BoneDog_Base_02",
+              "tint": {
+                "r": 0.6156863,
+                "g": 0.5372549,
+                "b": 0.5333333,
+                "a": 1.0
+              },
+              "linear_speed": {
+                "x": 0.0,
+                "y": 0.5
+              }
+            },
+            {
+              "type": "texture",
+              "texture": "@SPL_Challenge_Main",
+              "stretch": false,
+              "additive": false
+            },
+            {
+              "type": "texture",
+              "texture": "@PRT_MoonPixie_Lantern",
+              "stretch": false,
+              "additive": false
+            }
+          ],
+          "transforms": [
+            {
+              "id": "Fel",
+              "layers": [
+                0
+              ],
+              "position": {
+                "x": -0.14,
+                "y": 0.03,
+                "z": 0.0
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              }
+            },
+            {
+              "id": "Sanctuary",
+              "layers": [
+                1
+              ],
+              "position": {
+                "x": 0,
+                "y": -0.2
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              }
+            },
+            {
+              "id": "PetTheDog",
+              "layers": [
+                5
+              ],
+              "scale": {
+                "x": 1.25,
+                "y": 1.25,
+                "z": 1
+              },
+
+              "position": {
+                "x": 0.415,
+                "y": 0.22,
+                "z": 0.0
+              }
+            },
+            {
+              "id": "Lantern",
+              "layers": [ 6 ],
+              "position": {
+                "x": 0.265,
+                "y": 0
+              },
+              "scale": {
+                "x": 1.5,
+                "y": 1.5,
+                "z": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sprites": [
+    {
+      "id": "PRT_BoneDog_Base",
+      "path": "textures/card_art/PRT_BoneDog_Base.png"
+    },
+    {
+      "id": "PRT_BoneDog_Layer1",
+      "path": "textures/card_art/PRT_BoneDog_Layer1.png"
+    },
+    {
+      "id": "FX_Clouds_01",
+      "path": "textures/card_art/FX_Clouds_01.png"
+    },
+    {
+      "id": "MSK_BoneDog_Base_01",
+      "path": "textures/card_art/MSK_BoneDog_Base_01.png"
+    },
+    {
+      "id": "MSK_BoneDog_Base_02",
+      "path": "textures/card_art/MSK_BoneDog_Base_02.png"
+    },
+    {
+      "id": "SPL_Challenge_Main",
+      "path": "textures/card_art/SPL_Challenge_Main.png"
+    },
+    {
+      "id": "SPL_SelflessSacrifice_Main",
+      "path": "textures/card_art/SPL_SelflessSacrifice_Main.png"
+    },
+    {
+      "id": "PRT_MoonPixie_Lantern",
+      "path": "textures/card_art/PRT_MoonPixie_Lantern.png"
+    },
+    {
+      "id": "PRT_Enchantrelle_Base_01",
+      "path": "textures/card_art/PRT_Enchantrelle_Base_01.png"
+    },
+    {
+      "id": "SPL_Sanctuary_Base_FX",
+      "path": "textures/card_art/SPL_Sanctuary_Base_FX.png"
+    },
+    {
+      "id": "FX_Clouds_02",
+      "path": "textures/card_art/FX_Clouds_02.png"
+    },
+    {
+      "id": "MSK_Sanctuary_Base_02",
+      "path": "textures/card_art/MSK_Sanctuary_Base_02.png"
+    }
+  ]
+}
